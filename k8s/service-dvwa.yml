@@ -7,7 +7,7 @@ spec:
   selector:
     app: dvwa-web
     tier: frontend
-  type: LoadBalancer
+  type: NodePort
   ports:
     - protocol: TCP
       # Port accessible inside cluster
